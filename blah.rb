@@ -10,11 +10,8 @@ client = Client.new('@ahmed1000', '@ahmed1000')
 uri = URI.parse(API_BASE)
 header = { 'Content-Type': 'text/json' }
 user = {
-  user:
-  {
-    user_handle: client.user_handle,
-    password: client.password
-  }
+  handle: client.handle,
+  password: client.password
 }
 
 # Create the HTTP objects
@@ -25,4 +22,4 @@ request.body = user.to_json
 # Send the request
 response = http.request(request)
 
-puts response
+puts request.body
