@@ -1,5 +1,9 @@
 # NanoTwitter
 
+[![Codeship Status for cosi105/nano_twitter](https://app.codeship.com/projects/6eab5f20-3939-0137-5092-0ea8998f87bd/status?branch=master)](https://app.codeship.com/projects/333927)
+[![Maintainability](https://api.codeclimate.com/v1/badges/de2b7781b950225da796/maintainability)](https://codeclimate.com/github/cosi105/nano_twitter/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/de2b7781b950225da796/test_coverage)](https://codeclimate.com/github/cosi105/nano_twitter/test_coverage)
+
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/nano_twitter`. To experiment with that code, run `bin/console` for an interactive prompt.
 
 TODO: Delete this and the text above, and describe your gem
