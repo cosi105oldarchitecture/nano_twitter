@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Ari Carr"]
   spec.email         = ["acarr@brandeis.edu"]
 
-  spec.summary       = "A short summary"
+  spec.summary       = "A client gem for NanoTwitter, our COSI 105B project"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
@@ -23,5 +23,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 2.0"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "httparty"
-  spec.add_development_dependency "pry-byebug"
+  spec.add_development_dependency "byebug"
+  spec.add_development_dependency "rb-readline"
 end
