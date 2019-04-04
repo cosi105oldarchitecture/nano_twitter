@@ -1,5 +1,6 @@
 require 'simplecov'
 SimpleCov.start
+SimpleCov.command_name 'test:units'
 require 'minitest/autorun'
 require 'nano_twitter'
 require 'httparty'
@@ -24,7 +25,7 @@ describe 'NanoTwitter Gem' do
     @client.register(@name)
   end
 
-  Minitest.after_run { Thread.new {HTTParty.post("#{NT_PATH}/test/reset/all") } }
+  Minitest.after_run { HTTParty.post("#{NT_PATH}/test/reset/all") }
 
   describe 'NanoTwitter Gem After Registration' do
     it 'can log in as a user' do
