@@ -15,6 +15,7 @@ GEM
     mime-types (3.2.2)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2018.0812)
+    minitest (5.11.3)
     multi_xml (0.6.0)
     rake (10.5.0)
     rb-readline (0.5.5)
@@ -31,6 +32,7 @@ DEPENDENCIES
   bundler (~> 2.0)
   byebug
   httparty
+  minitest
   nano_twitter!
   rake (~> 10.0)
   rb-readline
